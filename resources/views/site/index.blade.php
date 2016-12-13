@@ -1,0 +1,11 @@
+@extends('site.layout')
+@section('content')
+@include('site.template.navbar')
+@include('site.template.slider')
+@include('site.home.features')
+@include('site.template.pleasure')
+@include('site.home.pricing')
+@include('site.home.projectes')
+@include('site.home.partners')
+@include('site.template.try')
+@stop

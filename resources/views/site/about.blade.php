@@ -1,0 +1,9 @@
+@extends('site.layout')
+@section('content')
+@include('site.template.navbar')
+@include('site.template.slider')
+@include('site.template.pleasure')
+@include('site.about.company')
+@include('site.about.team')
+@include('site.template.try')
+@stop
